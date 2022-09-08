@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: #121212;
+  /* border: 1px solid red; */
+}
+
+form {
+  text-align: center;
+}
+
+.header {
+  height: 200px;
+  margin: 3em;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  background-image: url(./images/film.avif);
+}
+
+.movie-card {
+  display: flex;
+  margin: 3em;
+}
+
+.movie-card-content {
+  padding: 2em;
+}
